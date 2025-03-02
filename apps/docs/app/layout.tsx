@@ -12,7 +12,7 @@ export const metadata = {
 const banner = <Banner storageKey="some-key">Nextra 4.0 is released 🎉</Banner>;
 const navbar = (
   <Navbar
-    logo={<b>Nextra</b>}
+    logo={<b>JsTs Utils</b>}
     // ... Your additional navbar options
   />
 );
@@ -44,6 +44,7 @@ export default async function RootLayout({
           pageMap={await getPageMap()}
           docsRepositoryBase="https://github.com/shuding/nextra/tree/main/docs"
           footer={footer}
+          sidebar={{ autoCollapse: true }}
           // ... Your additional layout options
         >
           {children}
