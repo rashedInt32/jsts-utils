@@ -1,3 +1,4 @@
+
 # `tryCatch` Function
 
 This function provides a structured way to handle asynchronous operations that may either succeed or fail, returning a `Result` type that encapsulates the outcome.
@@ -34,12 +35,15 @@ type Result<T, E = Error> = Success<T> | Failure<E>;
 ```typescript
 async function main() {
   const getPost = fetch('https://jsonplaceholder.typicode.com/todos/1')
+  
   // const result = await tryCatch(getPost); or
   const {response, error} = await tryCatch(getPost);
   if(error !== null) return error;
+  
   const data = await response.json()
   console.log(data)
 }
+
 main();
 ```
 
