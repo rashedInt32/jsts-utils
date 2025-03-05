@@ -3,7 +3,7 @@ import { describe, expect, it } from "vitest";
 import { tryCatch } from "../src";
 
 describe("try catch utility function", () => {
-  it("should return data successfully", async () => {
+  it("should return reponse successfully", async () => {
     const testData = { anme: "John Doe" };
     const promise = Promise.resolve(testData);
     const { response, error } = await tryCatch(promise);
