@@ -24,8 +24,8 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.28.1",
-    "@jsts-utils/eslint-config": "0.1.0",
-    "@jsts-utils/typescript-config": "0.1.0",
+    "@jsts-utils/eslint-config": "workspace:*",
+    "@jsts-utils/tsconfig": "workspace:*",
     "tsup": "^8.4.0",
     "typescript": "catalog:",
     "vitest": "^3.0.7"
