@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "next": "^15.1.6",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "catalog:react19",
+    "react-dom": "catalog:react19"
   },
   "devDependencies": {
     "@jsts-utils/eslint-config": "0.1.0",

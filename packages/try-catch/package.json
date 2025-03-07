@@ -27,7 +27,7 @@
     "@jsts-utils/eslint-config": "0.1.0",
     "@jsts-utils/typescript-config": "0.1.0",
     "tsup": "^8.4.0",
-    "typescript": "5.7.3",
+    "typescript": "catalog:",
     "vitest": "^3.0.7"
   },
   "prettier": "@jsts-utils/prettier-config"
