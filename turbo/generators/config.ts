@@ -8,12 +8,6 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
         name: "name",
         message: "what is the name of the pakcage?",
       },
-      {
-        type: "input",
-        name: "deps",
-        message:
-          "Enter a space separated list of dependencies yhou would like to install",
-      },
     ],
     actions: [
       {
