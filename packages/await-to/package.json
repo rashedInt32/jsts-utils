@@ -32,7 +32,7 @@
   "devDependencies": {
     "@changesets/cli": "^2.28.1",
     "@jsts-utils/eslint-config": "workspace:*",
-    "@jsts-utils/typescript-config": "workspace:*",
+    "@jsts-utils/tsconfig": "workspace:*",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "tsup": "^8.4.0",
