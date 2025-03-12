@@ -36,6 +36,5 @@
     "tsup": "^8.4.0",
     "typescript": "catalog:",
     "vitest": "^3.0.7"
-  },
-  "prettier": "@jsts-utils/prettier-config"
+  }
 }

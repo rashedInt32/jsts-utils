@@ -34,10 +34,8 @@
     "@jsts-utils/eslint-config": "workspace:*",
     "@jsts-utils/tsconfig": "workspace:*",
     "eslint": "catalog:",
-    "prettier": "catalog:",
     "tsup": "^8.4.0",
     "typescript": "catalog:",
     "vitest": "^3.0.7"
-  },
-  "prettier": "@jsts-utils/prettier-config"
+  }
 }

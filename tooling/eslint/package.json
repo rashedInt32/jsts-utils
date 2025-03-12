@@ -24,12 +24,9 @@
     "typescript-eslint": "^8.21.0"
   },
   "devDependencies": {
-    "@jsts-utils/prettier-config": "workspace:*",
     "@jsts-utils/tsconfig": "workspace:*",
     "@types/eslint__js": "8.42.3",
     "eslint": "catalog:",
-    "prettier": "catalog:",
     "typescript": "catalog:"
-  },
-  "prettier": "@jsts-utils/prettier-config"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "extends": "@jsts-utils/tsconfig/base.json",
+  "extends": "@jsts-utils/tsconfig/internal-package.json",
   "compilerOptions": {
     "outDir": "dist"
   },

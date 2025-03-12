@@ -21,11 +21,8 @@
   },
   "devDependencies": {
     "@jsts-utils/eslint-config": "workspace:*",
-    "@jsts-utils/prettier-config": "workspace:*",
     "@jsts-utils/tsconfig": "workspace:*",
     "eslint": "catalog:",
-    "prettier": "catalog:",
     "typescript": "catalog:"
-  },
-  "prettier": "@jsts-utils/prettier-config"
+  }
 }
