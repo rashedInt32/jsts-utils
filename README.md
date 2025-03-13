@@ -1,7 +1,6 @@
-# Javascript Typescript utility packages
-- `tryCatch`: a [TryCatch Utility](https://github.com/rashedInt32/jsts-utils/tree/main/packages/try-catch) function.
+# Turborepo starter
 
-
+This Turborepo starter is maintained by the Turborepo core team.
 
 ## Using this example
 
