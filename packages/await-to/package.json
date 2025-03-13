@@ -33,7 +33,7 @@
     "@changesets/cli": "^2.28.1",
     "@jsts-utils/eslint-config": "workspace:*",
     "@jsts-utils/typescript-config": "workspace:*",
-    "@types/node": "^22.13.9",
+    "@types/node": "catalog:",
     "tsup": "^8.4.0",
     "typescript": "catalog:",
     "vitest": "^3.0.7"

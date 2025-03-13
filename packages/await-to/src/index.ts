@@ -1,1 +1,3 @@
-export const name = 'await-to';
+import { to } from "./to";
+
+export { to };

@@ -1,5 +1,5 @@
 {
-  "extends": "@jsts-utils/typescript-config/base.json",
+  "extends": "@jsts-utils/typescript-config/nextjs.json",
   "compilerOptions": {
     "outDir": "dist"
   },
