@@ -11,17 +11,18 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "next": "catalog:",
-    "react": "catalog:react19",
-    "react-dom": "catalog:react19"
+    "@jsts-utils/ui": "workspace:*",
+    "next": "^15.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@jsts-utils/eslint-config": "workspace:*",
-    "@jsts-utils/tsconfig": "workspace:*",
-    "@types/node": "^22",
-    "@types/react": "catalog:react19",
-    "@types/react-dom": "catalog:react19",
-    "eslint": "catalog:",
-    "typescript": "catalog:"
+    "@jsts-utils/typescript-config": "workspace:*",
+    "@types/node": "^22.13.9",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "eslint": "^9.22.0",
+    "typescript": "5.8.2"
   }
 }
