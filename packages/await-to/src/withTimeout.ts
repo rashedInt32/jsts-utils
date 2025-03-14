@@ -1,4 +1,4 @@
-export function withTimeout<T, U = Error>(
+export async function withTimeout<T, U = Error>(
   promise: Promise<T>,
   timeout: number
 ): Promise<[U, undefined] | [null, T]> {
