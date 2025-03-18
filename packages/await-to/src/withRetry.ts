@@ -1,4 +1,4 @@
-export function withRetry<T, U = Error>(
+export async function withRetry<T, U = Error>(
   promiseFn: () => Promise<T>,
   retries: number,
   delay: number = 0
