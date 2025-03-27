@@ -1,10 +1,10 @@
 export async function withRetry<T, U = Error>(
   promiseFn: () => Promise<T>,
   retries: number,
-  delay: number = 0
+  delay: number = 0,
 ): Promise<[U, undefined] | [null, T]> {
-  const attempt = (
-    retriesLeft: number
+  const attempt = async (
+    retriesLeft: number,
   ): Promise<[U, undefined] | [null, T]> => {
     return promiseFn()
       .then<[null, T]>((data) => [null, data])
@@ -14,7 +14,7 @@ export async function withRetry<T, U = Error>(
             (resolve: (value: [U, undefined] | [null, T]) => void) =>
               setTimeout(() => {
                 attempt(retriesLeft - 1).then(resolve);
-              }, delay)
+              }, delay),
           );
         }
         return [err, undefined] as [U, undefined];
