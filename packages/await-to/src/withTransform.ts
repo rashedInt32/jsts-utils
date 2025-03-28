@@ -1,4 +1,4 @@
-export function withTransform<T, R, U = Error>(
+export async function withTransform<T, R, U = Error>(
   promise: Promise<T>,
   transform: (data: T) => R,
 ): Promise<[U, undefined] | [null, R]> {
