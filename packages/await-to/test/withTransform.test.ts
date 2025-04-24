@@ -16,7 +16,7 @@ describe("withTransform", () => {
       Promise.reject(new Error("foo")),
       () => {}
     );
-    expect(err).toBe("foo");
+    expect(err).toBe({ message: "foo" });
     expect(result).toBeUndefined();
   });
 });
