@@ -1,3 +1,13 @@
+/**
+ * Conditionally rejects a resolved value if the predicate `rejectIf` is true.
+ * Optional `rejectionError` can be a string, error, or function.
+ *
+ * @param promise - The Promise whose result to validate.
+ * @param rejectIf - Predicate that returns true to reject the result.
+ * @param rejectionError - Error value or function to use when rejected.
+ * @returns A tuple [error, data].
+ */
+
 export async function withRejectIf<T, U = Error>(
   promise: Promise<T>,
   rejectIf: (data: T) => boolean,

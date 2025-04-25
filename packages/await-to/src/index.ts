@@ -5,6 +5,7 @@ import { withTransform } from "./withTransform";
 import { withFallback } from "./withFallback";
 import { withHooks } from "./withHooks";
 import { withRejectIf } from "./withRejectIf";
+import { withErrorExt } from "./withErrorExt";
 
 export {
   to,
@@ -14,4 +15,5 @@ export {
   withFallback,
   withHooks,
   withRejectIf,
+  withErrorExt,
 };
